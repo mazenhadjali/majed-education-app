@@ -15,8 +15,7 @@ export default function Layout() {
                 const state = JSON.parse(stored);
                 if (!state.fullName || !state.age) {
                     navigate(SETUP);
-                }
-                else {
+                } else {
                     setUserInfo(state);
                 }
             } catch (e) {
@@ -31,9 +30,9 @@ export default function Layout() {
     return (
         <div dir="rtl">
             <Navbar />
-            <main className="pt-16">
+            <div className="">
                 <Outlet />
-            </main>
+            </div>
         </div>
     );
 }
