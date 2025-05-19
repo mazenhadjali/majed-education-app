@@ -31,7 +31,7 @@ export default function Navbar() {
     }, [lastY]);
 
     // hide completely on home
-    if (location.pathname === '/') return null;
+    // if (location.pathname === '/') return null;
 
     const toggleMobile = () => setMobileOpen((prev) => !prev);
     const handleLinkClick = () => setMobileOpen(false);
