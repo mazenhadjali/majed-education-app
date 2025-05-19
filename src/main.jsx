@@ -9,6 +9,7 @@ import { APP_LIST, HOME, SETUP } from './constants';
 import AppList from './pages/AppList';
 import SetUp from './pages/SetUp';
 import Wrapper1 from './components/wrapper1';
+import Home from './pages/Home';
 
 export const routes = [
   {
@@ -21,7 +22,7 @@ export const routes = [
       },
       {
         path: HOME,
-        element: <Wrapper1><h1 className="text-3xl font-bold text-center mt-4">مرحبا بك في التطبيق</h1></Wrapper1>,
+        element: <Wrapper1><Home /></Wrapper1>,
       },
       {
         path: APP_LIST,
