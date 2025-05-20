@@ -10,6 +10,9 @@ function EXP3() {
             <h1 className="text-3xl font-bold text-yellow-800">قصة عائلة كان وأخواتها</h1>
             <SlidesParent>
                 <Slide>
+                    <img src="/px3.jpg" alt="كان وأخواتها" className="w-full h-auto rounded-lg shadow-lg mb-4 max-w-lg mx-auto" />
+                </Slide>
+                <Slide>
 
                     <p className="text-lg text-gray-800">
                         في قرية النحو عاشت عائلة مشهورة تدعى <span className="font-semibold text-yellow-700">عائلة كان وأخواتها</span>، وكانت تتمتع بقوى خارقة في تغيير أحوال الجمل الاسمية. لكن حياتهم اليومية كانت مليئة بالمواقف الكوميدية، لأن لكل فرد منهم شخصية غريبة لا تُنسى.
