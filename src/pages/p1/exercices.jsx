@@ -56,11 +56,11 @@ export default function EXPExercises() {
         setResults(res);
     };
 
-    const inputClass = 'border border-indigo-300 focus:ring focus:ring-indigo-200 rounded-lg px-3 py-2 w-full max-w-xs';
+    const inputClass = 'border border-indigo-300 focus:ring focus:ring-indigo-200 rounded-lg py-2 w-full max-w-xs';
     const buttonClass = 'bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-4 py-2 rounded-lg transition';
 
     return (
-        <div className="min-h-screen bg-gradient-to-b from-white to-indigo-50 py-12 px-6 md:px-16 lg:px-32 font-sans text-gray-900">
+        <div className="min-h-screen bg-gradient-to-b from-white to-indigo-50 py-12 lg:px-20 font-sans text-gray-900">
             <h1 className="text-4xl md:text-5xl font-extrabold text-center text-indigo-700 mb-12">تمارين نحوية تفاعلية</h1>
 
             {/* Exercise 1 */}

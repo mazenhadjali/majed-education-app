@@ -5,7 +5,7 @@ function WrapperP({ children }) {
         <React.Fragment>
             <div className="h-screen bg-cover bg-center relative pt-10">
 
-                <div className="relative z-10 container my-20 overflow-auto bg-white/90 rounded-2xl shadow-lg p-8 w-full mx-auto space-y-6 text-right">
+                <div className="relative z-10 container my-20 overflow-auto bg-white/90 rounded-2xl shadow-lg p-2 w-full mx-auto space-y-6 text-right">
                     {children}
                 </div>
             </div>
