@@ -93,6 +93,16 @@ function EXP3() {
                     "والآن، من منكم يستطيع أن يعيد القصة بأسلوبه ويضيف جملاً جديدة باستخدام أفراد العائلة؟ لكن انتبهوا... من يخطئ في الإعراب، سيزوره <span className="font-bold">ليس</span> في أحلامه هذه الليلة!"
                 </blockquote>
             </div>
+            {/* video /p1.mp4 */}
+            <div className="mt-8">
+                <video
+                    className="w-full h-auto rounded-lg shadow-lg max-w-3xl mx-auto"
+                    controls
+                    src="/p3.mp4"
+                >
+                    Your browser does not support the video tag.
+                </video>
+            </div>
         </div>
     );
 }

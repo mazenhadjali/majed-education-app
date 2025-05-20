@@ -72,6 +72,16 @@ function EXP2() {
                     وبينما كانت بَيْلَسَان تلوّح لهما من بين الغيوم، تلمع أجنحتها تحت أشعة الشمس، ابتسم الصديقان بسعادة غامرة.
                 </p>
             </div>
+            {/* video /p1.mp4 */}
+            <div className="mt-8">
+                <video
+                    className="w-full h-auto rounded-lg shadow-lg max-w-3xl mx-auto"
+                    controls
+                    src="/p2.mp4"
+                >
+                    Your browser does not support the video tag.
+                </video>
+            </div>
         </div>
     );
 }

@@ -115,6 +115,16 @@ function EXP1() {
                     </li>
                 </ol>
             </section>
+            {/* video /p1.mp4 */}
+            <div className="mt-8">
+                <video
+                    className="w-full h-auto rounded-lg shadow-lg max-w-3xl mx-auto"
+                    controls
+                    src="/p1.mp4"
+                >
+                    Your browser does not support the video tag.
+                </video>
+            </div>
         </div>
     );
 }
