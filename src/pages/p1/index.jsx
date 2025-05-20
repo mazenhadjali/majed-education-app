@@ -1,4 +1,5 @@
 import React from 'react';
+import EXPExercises from './exercices';
 
 function EXP1() {
     return (
@@ -125,6 +126,7 @@ function EXP1() {
                     Your browser does not support the video tag.
                 </video>
             </div>
+            <EXPExercises />
         </div>
     );
 }
