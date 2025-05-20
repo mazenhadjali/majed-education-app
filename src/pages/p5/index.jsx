@@ -1,4 +1,5 @@
 import React from 'react';
+import ZoomImageModal from '../../components/ZoomImageBox';
 
 function EXP5() {
   return (
@@ -103,6 +104,9 @@ function EXP5() {
         >
           Your browser does not support the video tag.
         </video>
+      </div>
+      <div className='mt-8 flex flex-col items-center justify-center bg-blue-100 p-4 rounded-lg border border-blue-200/80'>
+        <ZoomImageModal src="/im5.jpg" className="w-full h-auto shadow-lg mx-auto p-4 rounded-xl hover:shadow-2xl transition-shadow duration-300 ease-in-out" />
       </div>
     </div>
   );

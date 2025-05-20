@@ -1,4 +1,3 @@
-import React from 'react';
 
 function Wrapper1({ children }) {
     return (

@@ -14,8 +14,10 @@
     "lucide-react": "^0.511.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-medium-image-zoom": "^5.2.14",
     "react-router-dom": "^6.30.0",
     "tailwindcss": "^4.1.7",
+    "yet-another-react-lightbox": "^3.23.2",
     "zustand": "^5.0.4"
   },
   "devDependencies": {

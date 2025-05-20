@@ -1,5 +1,6 @@
 import React from 'react';
 import EXPExercises from './exercices';
+import ZoomImageModal from '../../components/ZoomImageBox';
 
 function EXP1() {
     return (
@@ -127,6 +128,10 @@ function EXP1() {
                 </video>
             </div>
             <EXPExercises />
+
+            <div className='mt-8 flex flex-col items-center justify-center bg-blue-100 p-4 rounded-lg border border-blue-200/80'>
+                <ZoomImageModal src="/im1.jpg" className="w-full h-auto shadow-lg mx-auto p-4 rounded-xl hover:shadow-2xl transition-shadow duration-300 ease-in-out" />
+            </div>
         </div>
     );
 }

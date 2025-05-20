@@ -1,4 +1,5 @@
 import React from 'react';
+import ZoomImageModal from '../../components/ZoomImageBox';
 
 function EXP6() {
   return (
@@ -55,7 +56,7 @@ function EXP6() {
         <div className="bg-white rounded-2xl shadow-md p-6">
           <h2 className="text-2xl font-bold text-indigo-600 mb-4">الوصول إلى كهف الأماني</h2>
           <p className="text-lg">
-            دخلوا الكهف ووجدوا الحجر السحري يتوهج في زاوية مظلمة. أمسكت بَيْلَسَانُ به بفرح وقالت: "شكرًا لكم! لقد ساعدتموني لأحقق هدفي!"  
+            دخلوا الكهف ووجدوا الحجر السحري يتوهج في زاوية مظلمة. أمسكت بَيْلَسَانُ به بفرح وقالت: "شكرًا لكم! لقد ساعدتموني لأحقق هدفي!"
           </p>
         </div>
 
@@ -77,15 +78,18 @@ function EXP6() {
         </div>
       </section>
       {/* video /p1.mp4 */}
-            <div className="mt-8">
-                <video
-                    className="w-full h-auto rounded-lg shadow-lg max-w-3xl mx-auto"
-                    controls
-                    src="/p6.mp4"
-                >
-                    Your browser does not support the video tag.
-                </video>
-            </div>
+      <div className="mt-8">
+        <video
+          className="w-full h-auto rounded-lg shadow-lg max-w-3xl mx-auto"
+          controls
+          src="/p6.mp4"
+        >
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div className='mt-8 flex flex-col items-center justify-center bg-blue-100 p-4 rounded-lg border border-blue-200/80'>
+        <ZoomImageModal src="/im6.jpg" className="w-full h-auto shadow-lg mx-auto p-4 rounded-xl hover:shadow-2xl transition-shadow duration-300 ease-in-out" />
+      </div>
     </div>
   );
 }
