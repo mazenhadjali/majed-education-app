@@ -2,6 +2,7 @@ import React from 'react';
 import ZoomImageModal from '../../components/ZoomImageBox';
 import SlidesParent from '../../components/SlidesParent';
 import Slide from '../../components/Slide';
+import ReasonsExercises from './exercices';
 
 function EXP6() {
   return (
@@ -101,9 +102,13 @@ function EXP6() {
           Your browser does not support the video tag.
         </video>
       </div>
+
+      <ReasonsExercises />
+
       <div className='mt-8 flex flex-col items-center justify-center bg-blue-100 p-4 rounded-lg border border-blue-200/80'>
         <ZoomImageModal src="/im6.jpg" className="w-full h-auto shadow-lg mx-auto p-4 rounded-xl hover:shadow-2xl transition-shadow duration-300 ease-in-out" />
       </div>
+
     </div>
   );
 }

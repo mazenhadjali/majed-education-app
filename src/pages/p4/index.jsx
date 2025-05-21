@@ -1,6 +1,7 @@
 import React from 'react';
 import SlidesParent from '../../components/SlidesParent';
 import Slide from '../../components/Slide';
+import JarMajrourExercises from './exercices';
 
 function EXP4() {
   return (
@@ -92,6 +93,7 @@ function EXP4() {
           </Slide>
         </SlidesParent>
       </div>
+      <JarMajrourExercises />
     </div>
   );
 }
